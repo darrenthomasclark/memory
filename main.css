@@ -1,0 +1,95 @@
+td {
+  border-style: solid;
+  color: black;
+  border-width: 1px;
+}
+
+table {
+  border-style: solid;
+  color: black;
+  border-width: 1px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*GOOD PUNCHOUT STUFF*/
+
+/*table {
+margin-top: 100px;
+padding: 0px;
+}
+
+td {
+  background-size: contain;
+  margin: 0px;
+  border-style: solid;
+  border-width: 1px;
+  height: 140px;
+  width: 140px;
+}
+
+tr {
+  margin: 0px;
+}
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 46px;
+  z-index: 1;
+  color: white;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #22d464;
+  margin: 0;
+  border-style: solid;
+  border-width: 1px;
+  width: 960px;
+}
+.primarycontainer {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.headercontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 960px;
+  height: 260px;
+  justify-content: center;
+  background-image: url(images/background.jpg);
+}
+.headercontainer h1 {
+  margin-top: 375px;
+}*/
