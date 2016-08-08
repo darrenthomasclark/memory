@@ -1,21 +1,21 @@
-const handleImgClick = () => {
-  console.log('WINNNNNING!!!!!')
-}
-
 const init = () => {
-  for (var i = 0; i < 36; i++) {
-    const img = `url('./images/boss00${i + 1}.png')`
-    const images = document.querySelector('.images')
-    const div = document.createElement('div')
-    div.className = 'img'
-    div.style.backgroundImage = img
-    div.addEventListener('click', handleImgClick)
+ for (let j = 0; j < 2; j++) {
+   setNumArray()
+   for (let i = 0; i < 18; i++) {
+     let num = getImageNum()
+     const bgImg = "url('./images/backside.png')"
+     const cardImg = `url('./images/boss${num + 1}.png')`
+     const images = document.querySelector('.images')
+     const div = document.createElement('div')
+     div.className = `img ${i}`
+     div.style.backgroundImage = bgImg
+     div.addEventListener('click', function () {
+       handleImgClick.call(this, i, cardImg, bgImg, init)
+     })
+     images.appendChild(div)
+   }
+ }
 }
-}
-    images.appendChild(div)
-}
-}
-
 document.addEventListener('DOMContentLoaded', init)
 // const init = () => {
 //   //setNumArray()
